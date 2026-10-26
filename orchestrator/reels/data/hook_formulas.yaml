@@ -1,0 +1,125 @@
+# Hook formula library. Each idea is generated against one formula; analytics
+# feed back per-formula performance (db.formula_stats) which biases selection.
+# template uses {slots}; examples are few-shot anchors for the local LLM.
+- id: hypothetical_windfall
+  name: Hypothetical windfall / problem
+  template: "If you had {huge_amount} of {problem_thing}, how would you {verb} it?"
+  examples:
+    - "If you had $20 million in dirty cash, how would you launder it?"
+    - "If you won a billion dollars tomorrow, how fast could you lose it?"
+  why: Puts the viewer in the protagonist seat and forces a mental answer.
+- id: you_wont_believe_cost
+  name: Absurd hidden cost
+  template: "{common_thing} secretly costs {surprising_number}. Here's who pays."
+  examples:
+    - "Every free app costs you about $400 a year. Here's who's collecting."
+- id: how_they_got_caught
+  name: How they got caught
+  template: "{person_or_group} did everything right. Except {tiny_mistake}."
+  examples:
+    - "He stole $10 million perfectly. Then he ordered a pizza."
+- id: wrong_about
+  name: You've been wrong your whole life
+  template: "You've been {doing_thing} wrong your entire life."
+  examples:
+    - "You've been reading price tags wrong your entire life."
+- id: secret_system
+  name: The secret system
+  template: "There's a secret {system} behind every {everyday_thing}."
+  examples:
+    - "There's a secret code on every banknote that snitches on you."
+- id: countdown_stakes
+  name: Countdown with stakes
+  template: "You have {time_limit} to {goal}, or {consequence}."
+  examples:
+    - "You have 72 hours to move $5 million before the bank calls the feds."
+- id: villain_pov
+  name: Villain POV
+  template: "I'm a {villain_role}. Here's how I {scheme}."
+  examples:
+    - "I'm a casino. Here's how I make sure you never leave with my money."
+- id: smallest_to_biggest
+  name: Smallest to biggest
+  template: "From {small_thing} to {huge_thing} in {n} steps."
+  examples:
+    - "From one fake receipt to a $40 million empire in 5 steps."
+- id: forbidden_question
+  name: Question nobody asks
+  template: "Nobody asks where {thing} actually goes."
+  examples:
+    - "Nobody asks where the coins in fountains actually go."
+- id: impossible_choice
+  name: Impossible choice
+  template: "Would you take {option_a} or {option_b}? Most people pick wrong."
+  examples:
+    - "Would you take $1 million now or a penny doubled for 30 days? Most pick wrong."
+- id: one_rule
+  name: The one rule
+  template: "{experts} follow one rule you've never heard of."
+  examples:
+    - "Bank robbers follow one rule: never touch the bottom bill."
+- id: real_numbers
+  name: Real numbers shock
+  template: "{shocking_stat}. And that's the small part."
+  examples:
+    - "Two trillion dollars gets laundered every year. And that's the small part."
+- id: myth_bust
+  name: Movie myth vs reality
+  template: "In movies they {movie_version}. In real life {real_version}."
+  examples:
+    - "In movies they carry duffel bags of cash. In real life cash is a nightmare to move."
+- id: what_happens_if
+  name: What happens if
+  template: "What actually happens if you {action}?"
+  examples:
+    - "What actually happens if you deposit $50,000 in cash at once?"
+- id: insider_confession
+  name: Insider confession
+  template: "A former {insider} explained the trick that {result}."
+  examples:
+    - "A former casino dealer explained the trick that empties your wallet."
+- id: dumbest_genius
+  name: Dumbest genius
+  template: "This is the dumbest genius plan in history."
+  examples:
+    - "This is the dumbest genius heist plan in history."
+- id: before_you_scroll
+  name: Before you scroll (pattern interrupt)
+  template: "Stop. {object} in your {place} is {surprising_fact}."
+  examples:
+    - "Stop. The receipt in your pocket is covered in a chemical your skin absorbs."
+- id: price_of_x
+  name: The real price of X
+  template: "Here's what {amount} actually buys you in {context}."
+  examples:
+    - "Here's what $1 million actually buys you on the dark side of the economy."
+- id: chain_reaction
+  name: Chain reaction
+  template: "One {small_event} caused {massive_outcome}."
+  examples:
+    - "One typo caused a $1 billion bank heist to fail."
+- id: rank_it
+  name: Rank it
+  template: "Ranking every way to {goal}, from worst to genius."
+  examples:
+    - "Ranking every way to hide money, from worst to genius."
+- id: brain_bug
+  name: Your brain is lying
+  template: "Your brain is lying to you about {thing}."
+  examples:
+    - "Your brain is lying to you about how long a minute is."
+- id: experiment
+  name: Experiment with a twist
+  template: "Scientists {did_experiment}. The result was {unexpected}."
+  examples:
+    - "Scientists gave people $5 to spend on themselves or others. The happier group surprised them."
+- id: tiny_detail
+  name: Tiny detail, huge meaning
+  template: "That tiny {detail} on your {object} exists for a terrifying reason."
+  examples:
+    - "That tiny hole in airplane windows exists for a very good reason."
+- id: if_you_x_youre_y
+  name: Identity call-out
+  template: "If you {behavior}, your brain is {diagnosis}."
+  examples:
+    - "If you replay embarrassing moments at 3am, your brain is doing it on purpose."

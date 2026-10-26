@@ -1,0 +1,21 @@
+# Offline/CI profile: no models needed. Mock LLM, espeak TTS (falls back to a
+# synthetic tone), estimate aligner, built-in icons only.
+llm:
+  draft:  { backend: mock }
+  judge:  { backend: mock }
+  polish: { backend: mock }
+  vision: { backend: mock }
+comfy:
+  enabled: false
+tts:
+  default_engine: espeak
+  force_engine: espeak     # falls back to a synthetic tone if espeak-ng is missing
+align:
+  engine: estimate
+render:
+  concurrency: 4
+qa:
+  vision_check: true
+  min_seconds: 15
+ideas:
+  candidates: 10
