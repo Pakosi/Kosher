@@ -180,8 +180,8 @@ SCRIPT: {script.model_dump_json()}"""
         return script
     finally:
         llm.unload()
-    if validate(out, ctx) and not validate(script, ctx):
-        console.print("    [yellow]polished script failed validation; keeping draft[/yellow]")
+    if (bad := validate(out, ctx)) and not validate(script, ctx):
+        console.print(f"    [yellow]polished script failed validation ({bad}); keeping draft[/yellow]")
         return script
     out.polished = True
     return out

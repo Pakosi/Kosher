@@ -1,5 +1,10 @@
 # Offline/CI profile: no models needed. Mock LLM, espeak TTS (falls back to a
 # synthetic tone), estimate aligner, built-in icons only.
+# Keeps its own state/episodes/cache so mock ideas never leak into the real pool.
+paths:
+  episodes: state/test/episodes
+  state: state/test
+  assets_cache: state/test/assets_cache
 llm:
   draft:  { backend: mock }
   judge:  { backend: mock }

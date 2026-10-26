@@ -25,3 +25,4 @@ characters/*/design/
 library/voices/*
 !library/voices/.gitkeep
 setup/start-comfy.sh
+*.log
