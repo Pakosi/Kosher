@@ -1,0 +1,59 @@
+# Global pipeline config. Personal overrides go in config/pipeline.local.yaml (gitignored).
+# Profiles: REELS_PROFILE=test merges config/pipeline.test.yaml on top.
+
+llm:
+  # local drafting model (ideas, scripts, storyboards). One model resident at a time.
+  draft:  { backend: ollama, model: "qwen3:14b", temperature: 0.85, num_ctx: 12288 }
+  # judge: scores ideas. A different model family reduces self-preference bias.
+  judge:  { backend: ollama, model: "gemma3:12b", temperature: 0.2, num_ctx: 8192 }
+  # one polish call per episode (needs `pip install anthropic` + ANTHROPIC_API_KEY or `ant auth login`)
+  polish: { backend: claude, model: "claude-opus-5-5", effort: medium, enabled: true }
+  # vision QA on rendered frames
+  vision: { backend: ollama, model: "qwen2.5vl:7b", temperature: 0.0 }
+  # Alternative: MLX server (`mlx_lm.server --model mlx-community/Qwen3-14B-4bit --port 8080`)
+  # draft: { backend: openai, host: "http://127.0.0.1:8080", model: "mlx-community/Qwen3-14B-4bit" }
+
+comfy:
+  enabled: true
+  host: "http://127.0.0.1:8188"
+  checkpoint: "sd_xl_base_1.0.safetensors"
+  style_lora: null            # e.g. a doodle/line-art SDXL LoRA from civitai, placed in ComfyUI/models/loras
+  steps: 28
+  cfg: 6.0
+
+tts:
+  default_engine: kokoro      # kokoro | mlx-kokoro | f5 | elevenlabs | say | espeak | sine
+  sample_rate: 24000
+  line_gap: 0.16
+  beat_gap: 0.3
+
+align:
+  engine: mlx-whisper         # mlx-whisper | faster-whisper | whisper-cpp | estimate
+  model: "mlx-community/whisper-large-v3-turbo"
+  lipsync: rules              # rules | rhubarb (brew install rhubarb-lip-sync for phoneme-accurate mouths)
+
+render:
+  fps: 30
+  width: 1080
+  height: 1920
+  concurrency: 6              # M5 Pro: 6-8 is a good balance with 24GB
+  crf: 18
+
+audio:
+  target_lufs: -14
+  true_peak: -1.0
+  music_volume: 0.30
+  duck_volume: 0.07
+  sfx_volume: 0.7
+
+qa:
+  min_seconds: 28
+  max_seconds: 62
+  vision_check: true
+
+ideas:
+  candidates: 40
+  keep_ratio: 0.2
+
+publish:
+  graph_version: "v23.0"

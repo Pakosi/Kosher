@@ -1,0 +1,4091 @@
+{
+  "episodeId": "20261026-084422-dirty-money-myth-1",
+  "title": "How would you clean $20M?",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1295,
+  "palette": {
+    "paper": "#F7F3E8",
+    "ink": "#1B1B1B",
+    "accent": "#E63946",
+    "accent2": "#2A9D8F",
+    "highlight": "#FFD166"
+  },
+  "caption": {
+    "font": "Bangers",
+    "size": 96,
+    "highlight": "#FFD166",
+    "position": 0.5,
+    "wordsPerChunk": 3
+  },
+  "narration": "audio/narration.wav",
+  "music": {
+    "src": "music/bed.wav",
+    "volume": 0.3,
+    "duckVolume": 0.07,
+    "startFrom": 0.0
+  },
+  "speech": [
+    {
+      "start": 0.0,
+      "end": 3.49
+    },
+    {
+      "start": 3.95,
+      "end": 6.88
+    },
+    {
+      "start": 7.04,
+      "end": 11.88
+    },
+    {
+      "start": 12.34,
+      "end": 16.03
+    },
+    {
+      "start": 16.19,
+      "end": 22.71
+    },
+    {
+      "start": 22.87,
+      "end": 26.86
+    },
+    {
+      "start": 27.32,
+      "end": 33.74
+    },
+    {
+      "start": 34.2,
+      "end": 39.68
+    },
+    {
+      "start": 40.14,
+      "end": 42.9
+    }
+  ],
+  "sfx": [
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 0.0,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/pop.wav",
+      "at": 3.83,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 6.87,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/alarm.wav",
+      "at": 6.92,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/pop.wav",
+      "at": 12.22,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 16.02,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/record_scratch.wav",
+      "at": 16.07,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/ding.wav",
+      "at": 22.75,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 27.15,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/boom.wav",
+      "at": 27.2,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 34.08,
+      "volume": 1.0
+    },
+    {
+      "src": "sfx/whoosh.wav",
+      "at": 39.970000000000006,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/pop.wav",
+      "at": 40.02,
+      "volume": 1.0
+    }
+  ],
+  "words": [
+    {
+      "text": "If",
+      "start": 0.0,
+      "end": 0.17,
+      "emphasis": false
+    },
+    {
+      "text": "you",
+      "start": 0.17,
+      "end": 0.341,
+      "emphasis": false
+    },
+    {
+      "text": "had",
+      "start": 0.341,
+      "end": 0.511,
+      "emphasis": false
+    },
+    {
+      "text": "twenty",
+      "start": 0.511,
+      "end": 0.852,
+      "emphasis": true
+    },
+    {
+      "text": "million",
+      "start": 0.852,
+      "end": 1.192,
+      "emphasis": true
+    },
+    {
+      "text": "dollars",
+      "start": 1.192,
+      "end": 1.533,
+      "emphasis": false
+    },
+    {
+      "text": "in",
+      "start": 1.533,
+      "end": 1.703,
+      "emphasis": false
+    },
+    {
+      "text": "dirty",
+      "start": 1.703,
+      "end": 2.044,
+      "emphasis": true
+    },
+    {
+      "text": "cash,",
+      "start": 2.044,
+      "end": 2.316,
+      "emphasis": false
+    },
+    {
+      "text": "how",
+      "start": 2.316,
+      "end": 2.667,
+      "emphasis": false
+    },
+    {
+      "text": "would",
+      "start": 2.667,
+      "end": 2.837,
+      "emphasis": false
+    },
+    {
+      "text": "you",
+      "start": 2.837,
+      "end": 3.007,
+      "emphasis": false
+    },
+    {
+      "text": "clean",
+      "start": 3.007,
+      "end": 3.177,
+      "emphasis": false
+    },
+    {
+      "text": "it?",
+      "start": 3.177,
+      "end": 3.45,
+      "emphasis": false
+    },
+    {
+      "text": "Easy.",
+      "start": 3.95,
+      "end": 4.685,
+      "emphasis": false
+    },
+    {
+      "text": "I",
+      "start": 4.685,
+      "end": 4.856,
+      "emphasis": false
+    },
+    {
+      "text": "just",
+      "start": 4.856,
+      "end": 5.027,
+      "emphasis": false
+    },
+    {
+      "text": "walk",
+      "start": 5.027,
+      "end": 5.198,
+      "emphasis": false
+    },
+    {
+      "text": "into",
+      "start": 5.198,
+      "end": 5.54,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 5.54,
+      "end": 5.711,
+      "emphasis": false
+    },
+    {
+      "text": "bank",
+      "start": 5.711,
+      "end": 5.882,
+      "emphasis": true
+    },
+    {
+      "text": "and",
+      "start": 5.882,
+      "end": 6.053,
+      "emphasis": false
+    },
+    {
+      "text": "deposit",
+      "start": 6.053,
+      "end": 6.566,
+      "emphasis": false
+    },
+    {
+      "text": "it.",
+      "start": 6.566,
+      "end": 6.84,
+      "emphasis": false
+    },
+    {
+      "text": "Any",
+      "start": 7.04,
+      "end": 7.35,
+      "emphasis": false
+    },
+    {
+      "text": "cash",
+      "start": 7.35,
+      "end": 7.504,
+      "emphasis": false
+    },
+    {
+      "text": "deposit",
+      "start": 7.504,
+      "end": 7.969,
+      "emphasis": false
+    },
+    {
+      "text": "over",
+      "start": 7.969,
+      "end": 8.278,
+      "emphasis": false
+    },
+    {
+      "text": "ten",
+      "start": 8.278,
+      "end": 8.433,
+      "emphasis": false
+    },
+    {
+      "text": "thousand",
+      "start": 8.433,
+      "end": 8.743,
+      "emphasis": false
+    },
+    {
+      "text": "dollars",
+      "start": 8.743,
+      "end": 9.052,
+      "emphasis": false
+    },
+    {
+      "text": "gets",
+      "start": 9.052,
+      "end": 9.207,
+      "emphasis": false
+    },
+    {
+      "text": "reported",
+      "start": 9.207,
+      "end": 9.672,
+      "emphasis": true
+    },
+    {
+      "text": "to",
+      "start": 9.672,
+      "end": 9.826,
+      "emphasis": false
+    },
+    {
+      "text": "the",
+      "start": 9.826,
+      "end": 9.981,
+      "emphasis": false
+    },
+    {
+      "text": "government.",
+      "start": 9.981,
+      "end": 10.538,
+      "emphasis": false
+    },
+    {
+      "text": "Automatically.",
+      "start": 10.538,
+      "end": 11.84,
+      "emphasis": false
+    },
+    {
+      "text": "Fine.",
+      "start": 12.35,
+      "end": 12.617,
+      "emphasis": false
+    },
+    {
+      "text": "I",
+      "start": 12.617,
+      "end": 13.034,
+      "emphasis": false
+    },
+    {
+      "text": "split",
+      "start": 13.034,
+      "end": 13.201,
+      "emphasis": false
+    },
+    {
+      "text": "it",
+      "start": 13.201,
+      "end": 13.368,
+      "emphasis": false
+    },
+    {
+      "text": "into",
+      "start": 13.368,
+      "end": 13.702,
+      "emphasis": false
+    },
+    {
+      "text": "tiny",
+      "start": 13.702,
+      "end": 14.036,
+      "emphasis": true
+    },
+    {
+      "text": "deposits.",
+      "start": 14.036,
+      "end": 14.888,
+      "emphasis": false
+    },
+    {
+      "text": "Nine",
+      "start": 14.888,
+      "end": 15.055,
+      "emphasis": false
+    },
+    {
+      "text": "thousand",
+      "start": 15.055,
+      "end": 15.389,
+      "emphasis": false
+    },
+    {
+      "text": "at",
+      "start": 15.389,
+      "end": 15.556,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 15.556,
+      "end": 15.723,
+      "emphasis": false
+    },
+    {
+      "text": "time.",
+      "start": 15.723,
+      "end": 15.99,
+      "emphasis": false
+    },
+    {
+      "text": "That's",
+      "start": 16.2,
+      "end": 16.427,
+      "emphasis": false
+    },
+    {
+      "text": "called",
+      "start": 16.427,
+      "end": 16.881,
+      "emphasis": false
+    },
+    {
+      "text": "structuring.",
+      "start": 16.881,
+      "end": 18.009,
+      "emphasis": true
+    },
+    {
+      "text": "Banks",
+      "start": 18.009,
+      "end": 18.236,
+      "emphasis": false
+    },
+    {
+      "text": "have",
+      "start": 18.236,
+      "end": 18.463,
+      "emphasis": false
+    },
+    {
+      "text": "software",
+      "start": 18.463,
+      "end": 18.918,
+      "emphasis": false
+    },
+    {
+      "text": "that",
+      "start": 18.918,
+      "end": 19.145,
+      "emphasis": false
+    },
+    {
+      "text": "flags",
+      "start": 19.145,
+      "end": 19.372,
+      "emphasis": false
+    },
+    {
+      "text": "that",
+      "start": 19.372,
+      "end": 19.599,
+      "emphasis": false
+    },
+    {
+      "text": "exact",
+      "start": 19.599,
+      "end": 20.053,
+      "emphasis": false
+    },
+    {
+      "text": "pattern.",
+      "start": 20.053,
+      "end": 20.644,
+      "emphasis": false
+    },
+    {
+      "text": "And",
+      "start": 20.644,
+      "end": 20.871,
+      "emphasis": false
+    },
+    {
+      "text": "it's",
+      "start": 20.871,
+      "end": 21.398,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 21.398,
+      "end": 21.625,
+      "emphasis": false
+    },
+    {
+      "text": "crime",
+      "start": 21.625,
+      "end": 21.852,
+      "emphasis": true
+    },
+    {
+      "text": "on",
+      "start": 21.852,
+      "end": 22.079,
+      "emphasis": false
+    },
+    {
+      "text": "its",
+      "start": 22.079,
+      "end": 22.307,
+      "emphasis": false
+    },
+    {
+      "text": "own.",
+      "start": 22.307,
+      "end": 22.67,
+      "emphasis": false
+    },
+    {
+      "text": "Okay,",
+      "start": 22.87,
+      "end": 23.481,
+      "emphasis": false
+    },
+    {
+      "text": "okay.",
+      "start": 23.481,
+      "end": 24.232,
+      "emphasis": false
+    },
+    {
+      "text": "I",
+      "start": 24.232,
+      "end": 24.409,
+      "emphasis": false
+    },
+    {
+      "text": "buy",
+      "start": 24.409,
+      "end": 24.586,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 24.586,
+      "end": 24.764,
+      "emphasis": false
+    },
+    {
+      "text": "laundromat",
+      "start": 24.764,
+      "end": 25.295,
+      "emphasis": true
+    },
+    {
+      "text": "and",
+      "start": 25.295,
+      "end": 25.473,
+      "emphasis": false
+    },
+    {
+      "text": "say",
+      "start": 25.473,
+      "end": 25.65,
+      "emphasis": false
+    },
+    {
+      "text": "customers",
+      "start": 25.65,
+      "end": 26.182,
+      "emphasis": false
+    },
+    {
+      "text": "paid",
+      "start": 26.182,
+      "end": 26.359,
+      "emphasis": false
+    },
+    {
+      "text": "in",
+      "start": 26.359,
+      "end": 26.536,
+      "emphasis": false
+    },
+    {
+      "text": "cash.",
+      "start": 26.536,
+      "end": 26.82,
+      "emphasis": false
+    },
+    {
+      "text": "Here's",
+      "start": 27.35,
+      "end": 27.693,
+      "emphasis": false
+    },
+    {
+      "text": "the",
+      "start": 27.693,
+      "end": 27.865,
+      "emphasis": false
+    },
+    {
+      "text": "problem.",
+      "start": 27.865,
+      "end": 28.571,
+      "emphasis": false
+    },
+    {
+      "text": "A",
+      "start": 28.571,
+      "end": 28.743,
+      "emphasis": false
+    },
+    {
+      "text": "laundromat",
+      "start": 28.743,
+      "end": 29.257,
+      "emphasis": false
+    },
+    {
+      "text": "with",
+      "start": 29.257,
+      "end": 29.429,
+      "emphasis": false
+    },
+    {
+      "text": "four",
+      "start": 29.429,
+      "end": 29.601,
+      "emphasis": false
+    },
+    {
+      "text": "machines",
+      "start": 29.601,
+      "end": 30.115,
+      "emphasis": false
+    },
+    {
+      "text": "can't",
+      "start": 30.115,
+      "end": 30.287,
+      "emphasis": false
+    },
+    {
+      "text": "make",
+      "start": 30.287,
+      "end": 30.459,
+      "emphasis": false
+    },
+    {
+      "text": "twenty",
+      "start": 30.459,
+      "end": 30.802,
+      "emphasis": false
+    },
+    {
+      "text": "million",
+      "start": 30.802,
+      "end": 31.145,
+      "emphasis": false
+    },
+    {
+      "text": "dollars.",
+      "start": 31.145,
+      "end": 31.861,
+      "emphasis": false
+    },
+    {
+      "text": "Investigators",
+      "start": 31.861,
+      "end": 32.719,
+      "emphasis": false
+    },
+    {
+      "text": "just",
+      "start": 32.719,
+      "end": 32.891,
+      "emphasis": false
+    },
+    {
+      "text": "count",
+      "start": 32.891,
+      "end": 33.062,
+      "emphasis": true
+    },
+    {
+      "text": "the",
+      "start": 33.062,
+      "end": 33.234,
+      "emphasis": false
+    },
+    {
+      "text": "quarters.",
+      "start": 33.234,
+      "end": 33.68,
+      "emphasis": true
+    },
+    {
+      "text": "Almost",
+      "start": 34.2,
+      "end": 34.563,
+      "emphasis": false
+    },
+    {
+      "text": "every",
+      "start": 34.563,
+      "end": 35.108,
+      "emphasis": false
+    },
+    {
+      "text": "big",
+      "start": 35.108,
+      "end": 35.289,
+      "emphasis": false
+    },
+    {
+      "text": "case",
+      "start": 35.289,
+      "end": 35.471,
+      "emphasis": false
+    },
+    {
+      "text": "falls",
+      "start": 35.471,
+      "end": 35.652,
+      "emphasis": false
+    },
+    {
+      "text": "apart",
+      "start": 35.652,
+      "end": 36.016,
+      "emphasis": false
+    },
+    {
+      "text": "the",
+      "start": 36.016,
+      "end": 36.197,
+      "emphasis": false
+    },
+    {
+      "text": "same",
+      "start": 36.197,
+      "end": 36.379,
+      "emphasis": false
+    },
+    {
+      "text": "way.",
+      "start": 36.379,
+      "end": 36.669,
+      "emphasis": false
+    },
+    {
+      "text": "The",
+      "start": 36.669,
+      "end": 36.851,
+      "emphasis": false
+    },
+    {
+      "text": "money",
+      "start": 36.851,
+      "end": 37.534,
+      "emphasis": false
+    },
+    {
+      "text": "is",
+      "start": 37.534,
+      "end": 37.715,
+      "emphasis": false
+    },
+    {
+      "text": "bigger",
+      "start": 37.715,
+      "end": 38.079,
+      "emphasis": true
+    },
+    {
+      "text": "than",
+      "start": 38.079,
+      "end": 38.26,
+      "emphasis": false
+    },
+    {
+      "text": "the",
+      "start": 38.26,
+      "end": 38.442,
+      "emphasis": false
+    },
+    {
+      "text": "story",
+      "start": 38.442,
+      "end": 38.805,
+      "emphasis": true
+    },
+    {
+      "text": "that",
+      "start": 38.805,
+      "end": 38.986,
+      "emphasis": false
+    },
+    {
+      "text": "explains",
+      "start": 38.986,
+      "end": 39.35,
+      "emphasis": false
+    },
+    {
+      "text": "it.",
+      "start": 39.35,
+      "end": 39.64,
+      "emphasis": false
+    },
+    {
+      "text": "So",
+      "start": 40.15,
+      "end": 40.313,
+      "emphasis": false
+    },
+    {
+      "text": "what",
+      "start": 40.313,
+      "end": 40.477,
+      "emphasis": false
+    },
+    {
+      "text": "do",
+      "start": 40.477,
+      "end": 40.64,
+      "emphasis": false
+    },
+    {
+      "text": "I",
+      "start": 40.64,
+      "end": 40.803,
+      "emphasis": false
+    },
+    {
+      "text": "do",
+      "start": 40.803,
+      "end": 40.966,
+      "emphasis": false
+    },
+    {
+      "text": "with",
+      "start": 40.966,
+      "end": 41.13,
+      "emphasis": false
+    },
+    {
+      "text": "twenty",
+      "start": 41.13,
+      "end": 41.456,
+      "emphasis": true
+    },
+    {
+      "text": "million",
+      "start": 41.456,
+      "end": 41.783,
+      "emphasis": true
+    },
+    {
+      "text": "dollars",
+      "start": 41.783,
+      "end": 42.109,
+      "emphasis": false
+    },
+    {
+      "text": "in",
+      "start": 42.109,
+      "end": 42.272,
+      "emphasis": false
+    },
+    {
+      "text": "dirty",
+      "start": 42.272,
+      "end": 42.599,
+      "emphasis": false
+    },
+    {
+      "text": "cash?",
+      "start": 42.599,
+      "end": 42.86,
+      "emphasis": false
+    }
+  ],
+  "visemes": [
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 0.0,
+      "end": 0.085
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 0.085,
+      "end": 0.17
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 0.17,
+      "end": 0.256
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 0.256,
+      "end": 0.341
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 0.341,
+      "end": 0.426
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 0.426,
+      "end": 0.511
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 0.511,
+      "end": 0.596
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 0.596,
+      "end": 0.682
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 0.682,
+      "end": 0.767
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 0.767,
+      "end": 0.852
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 0.852,
+      "end": 0.92
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 0.92,
+      "end": 0.988
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 0.988,
+      "end": 1.056
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 1.056,
+      "end": 1.124
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 1.124,
+      "end": 1.192
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 1.192,
+      "end": 1.26
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 1.26,
+      "end": 1.328
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 1.328,
+      "end": 1.397
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 1.397,
+      "end": 1.465
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 1.465,
+      "end": 1.533
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 1.533,
+      "end": 1.618
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 1.618,
+      "end": 1.703
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 1.703,
+      "end": 1.788
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 1.788,
+      "end": 1.874
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 1.874,
+      "end": 1.959
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 1.959,
+      "end": 2.044
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 2.044,
+      "end": 2.135
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 2.135,
+      "end": 2.225
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 2.225,
+      "end": 2.316
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 2.316,
+      "end": 2.492
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 2.492,
+      "end": 2.667
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 2.667,
+      "end": 2.752
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 2.752,
+      "end": 2.837
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 2.837,
+      "end": 2.922
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 2.922,
+      "end": 3.007
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 3.007,
+      "end": 3.092
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 3.092,
+      "end": 3.177
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 3.177,
+      "end": 3.314
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 3.314,
+      "end": 3.45
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 3.45,
+      "end": 3.65
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 3.95,
+      "end": 4.318
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 4.318,
+      "end": 4.685
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 4.685,
+      "end": 4.856
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 4.856,
+      "end": 4.942
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 4.942,
+      "end": 5.027
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 5.027,
+      "end": 5.112
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 5.112,
+      "end": 5.198
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 5.198,
+      "end": 5.312
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 5.312,
+      "end": 5.426
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 5.426,
+      "end": 5.54
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 5.54,
+      "end": 5.711
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 5.711,
+      "end": 5.796
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 5.796,
+      "end": 5.882
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 5.882,
+      "end": 5.968
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 5.968,
+      "end": 6.053
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 6.053,
+      "end": 6.126
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 6.126,
+      "end": 6.2
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 6.2,
+      "end": 6.273
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 6.273,
+      "end": 6.346
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 6.346,
+      "end": 6.419
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 6.419,
+      "end": 6.493
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 6.493,
+      "end": 6.566
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 6.566,
+      "end": 6.703
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 6.703,
+      "end": 6.84
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 6.84,
+      "end": 7.04
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 7.04,
+      "end": 7.195
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 7.195,
+      "end": 7.35
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 7.35,
+      "end": 7.427
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 7.427,
+      "end": 7.504
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 7.504,
+      "end": 7.57
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 7.57,
+      "end": 7.637
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 7.637,
+      "end": 7.703
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 7.703,
+      "end": 7.77
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 7.77,
+      "end": 7.836
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 7.836,
+      "end": 7.903
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 7.903,
+      "end": 7.969
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 7.969,
+      "end": 8.046
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 8.046,
+      "end": 8.124
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 8.124,
+      "end": 8.201
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 8.201,
+      "end": 8.278
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 8.278,
+      "end": 8.356
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 8.356,
+      "end": 8.433
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 8.433,
+      "end": 8.495
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 8.495,
+      "end": 8.557
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 8.557,
+      "end": 8.619
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 8.619,
+      "end": 8.681
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 8.681,
+      "end": 8.743
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 8.743,
+      "end": 8.805
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 8.805,
+      "end": 8.867
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 8.867,
+      "end": 8.928
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 8.928,
+      "end": 8.99
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 8.99,
+      "end": 9.052
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.052,
+      "end": 9.13
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 9.13,
+      "end": 9.207
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 9.207,
+      "end": 9.273
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 9.273,
+      "end": 9.34
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 9.34,
+      "end": 9.406
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 9.406,
+      "end": 9.473
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.473,
+      "end": 9.539
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 9.539,
+      "end": 9.606
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.606,
+      "end": 9.672
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.672,
+      "end": 9.749
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 9.749,
+      "end": 9.826
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.826,
+      "end": 9.904
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 9.904,
+      "end": 9.981
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 9.981,
+      "end": 10.043
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 10.043,
+      "end": 10.105
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 10.105,
+      "end": 10.167
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 10.167,
+      "end": 10.229
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 10.229,
+      "end": 10.29
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 10.29,
+      "end": 10.352
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 10.352,
+      "end": 10.414
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 10.414,
+      "end": 10.476
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 10.476,
+      "end": 10.538
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 10.538,
+      "end": 10.646
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 10.646,
+      "end": 10.755
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 10.755,
+      "end": 10.864
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 10.864,
+      "end": 10.972
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 10.972,
+      "end": 11.08
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 11.08,
+      "end": 11.189
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 11.189,
+      "end": 11.298
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 11.298,
+      "end": 11.406
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 11.406,
+      "end": 11.514
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 11.514,
+      "end": 11.623
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 11.623,
+      "end": 11.732
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 11.732,
+      "end": 11.84
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 11.84,
+      "end": 12.04
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 12.35,
+      "end": 12.439
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 12.439,
+      "end": 12.528
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 12.528,
+      "end": 12.617
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 12.617,
+      "end": 13.034
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 13.034,
+      "end": 13.118
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 13.118,
+      "end": 13.201
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 13.201,
+      "end": 13.284
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 13.284,
+      "end": 13.368
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 13.368,
+      "end": 13.479
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 13.479,
+      "end": 13.591
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 13.591,
+      "end": 13.702
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 13.702,
+      "end": 13.813
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 13.813,
+      "end": 13.925
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 13.925,
+      "end": 14.036
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 14.036,
+      "end": 14.158
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 14.158,
+      "end": 14.279
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 14.279,
+      "end": 14.401
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 14.401,
+      "end": 14.523
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 14.523,
+      "end": 14.645
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 14.645,
+      "end": 14.766
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 14.766,
+      "end": 14.888
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 14.888,
+      "end": 14.972
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 14.972,
+      "end": 15.055
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 15.055,
+      "end": 15.122
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 15.122,
+      "end": 15.189
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 15.189,
+      "end": 15.255
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 15.255,
+      "end": 15.322
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 15.322,
+      "end": 15.389
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 15.389,
+      "end": 15.473
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 15.473,
+      "end": 15.556
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 15.556,
+      "end": 15.723
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 15.723,
+      "end": 15.812
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 15.812,
+      "end": 15.901
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 15.901,
+      "end": 15.99
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 15.99,
+      "end": 16.19
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 16.2,
+      "end": 16.276
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 16.276,
+      "end": 16.351
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 16.351,
+      "end": 16.427
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 16.427,
+      "end": 16.518
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 16.518,
+      "end": 16.609
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 16.609,
+      "end": 16.699
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 16.699,
+      "end": 16.79
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 16.79,
+      "end": 16.881
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 16.881,
+      "end": 17.022
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 17.022,
+      "end": 17.163
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 17.163,
+      "end": 17.304
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 17.304,
+      "end": 17.445
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 17.445,
+      "end": 17.586
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 17.586,
+      "end": 17.727
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 17.727,
+      "end": 17.868
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 17.868,
+      "end": 18.009
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 18.009,
+      "end": 18.085
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 18.085,
+      "end": 18.16
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 18.16,
+      "end": 18.236
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 18.236,
+      "end": 18.312
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 18.312,
+      "end": 18.387
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 18.387,
+      "end": 18.463
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 18.463,
+      "end": 18.528
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 18.528,
+      "end": 18.593
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 18.593,
+      "end": 18.658
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 18.658,
+      "end": 18.723
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 18.723,
+      "end": 18.788
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 18.788,
+      "end": 18.853
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 18.853,
+      "end": 18.918
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 18.918,
+      "end": 18.994
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 18.994,
+      "end": 19.069
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 19.069,
+      "end": 19.145
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 19.145,
+      "end": 19.221
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 19.221,
+      "end": 19.296
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 19.296,
+      "end": 19.372
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 19.372,
+      "end": 19.448
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 19.448,
+      "end": 19.523
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 19.523,
+      "end": 19.599
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 19.599,
+      "end": 19.712
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 19.712,
+      "end": 19.826
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 19.826,
+      "end": 19.94
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 19.94,
+      "end": 20.053
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 20.053,
+      "end": 20.152
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 20.152,
+      "end": 20.25
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 20.25,
+      "end": 20.348
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 20.348,
+      "end": 20.447
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 20.447,
+      "end": 20.546
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 20.546,
+      "end": 20.644
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 20.644,
+      "end": 20.758
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 20.758,
+      "end": 20.871
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 20.871,
+      "end": 21.134
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 21.134,
+      "end": 21.398
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 21.398,
+      "end": 21.625
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 21.625,
+      "end": 21.701
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 21.701,
+      "end": 21.776
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 21.776,
+      "end": 21.852
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 21.852,
+      "end": 21.966
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 21.966,
+      "end": 22.079
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 22.079,
+      "end": 22.193
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 22.193,
+      "end": 22.307
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 22.307,
+      "end": 22.489
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 22.489,
+      "end": 22.67
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 22.67,
+      "end": 22.87
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 22.87,
+      "end": 23.074
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 23.074,
+      "end": 23.277
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 23.277,
+      "end": 23.481
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 23.481,
+      "end": 23.731
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 23.731,
+      "end": 23.982
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 23.982,
+      "end": 24.232
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 24.232,
+      "end": 24.409
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 24.409,
+      "end": 24.498
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 24.498,
+      "end": 24.586
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 24.586,
+      "end": 24.764
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 24.764,
+      "end": 24.83
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 24.83,
+      "end": 24.897
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 24.897,
+      "end": 24.963
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 24.963,
+      "end": 25.03
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 25.03,
+      "end": 25.096
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 25.096,
+      "end": 25.162
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 25.162,
+      "end": 25.229
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 25.229,
+      "end": 25.295
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 25.295,
+      "end": 25.384
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 25.384,
+      "end": 25.473
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 25.473,
+      "end": 25.562
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 25.562,
+      "end": 25.65
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 25.65,
+      "end": 25.716
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 25.716,
+      "end": 25.783
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 25.783,
+      "end": 25.85
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 25.85,
+      "end": 25.916
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 25.916,
+      "end": 25.982
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 25.982,
+      "end": 26.049
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 26.049,
+      "end": 26.116
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 26.116,
+      "end": 26.182
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 26.182,
+      "end": 26.27
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 26.27,
+      "end": 26.359
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 26.359,
+      "end": 26.447
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 26.447,
+      "end": 26.536
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 26.536,
+      "end": 26.631
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 26.631,
+      "end": 26.725
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 26.725,
+      "end": 26.82
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 26.82,
+      "end": 27.02
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 27.35,
+      "end": 27.419
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 27.419,
+      "end": 27.487
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 27.487,
+      "end": 27.556
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 27.556,
+      "end": 27.624
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 27.624,
+      "end": 27.693
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 27.693,
+      "end": 27.779
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 27.779,
+      "end": 27.865
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 27.865,
+      "end": 27.983
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 27.983,
+      "end": 28.1
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 28.1,
+      "end": 28.218
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 28.218,
+      "end": 28.336
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 28.336,
+      "end": 28.453
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 28.453,
+      "end": 28.571
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 28.571,
+      "end": 28.743
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 28.743,
+      "end": 28.807
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 28.807,
+      "end": 28.872
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 28.872,
+      "end": 28.936
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 28.936,
+      "end": 29.0
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 29.0,
+      "end": 29.064
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 29.064,
+      "end": 29.128
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 29.128,
+      "end": 29.193
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 29.193,
+      "end": 29.257
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 29.257,
+      "end": 29.343
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 29.343,
+      "end": 29.429
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 29.429,
+      "end": 29.515
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 29.515,
+      "end": 29.601
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 29.601,
+      "end": 29.674
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 29.674,
+      "end": 29.748
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 29.748,
+      "end": 29.821
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 29.821,
+      "end": 29.895
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 29.895,
+      "end": 29.968
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 29.968,
+      "end": 30.042
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 30.042,
+      "end": 30.115
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 30.115,
+      "end": 30.201
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 30.201,
+      "end": 30.287
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 30.287,
+      "end": 30.373
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 30.373,
+      "end": 30.459
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 30.459,
+      "end": 30.545
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 30.545,
+      "end": 30.63
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 30.63,
+      "end": 30.716
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 30.716,
+      "end": 30.802
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 30.802,
+      "end": 30.871
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 30.871,
+      "end": 30.939
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 30.939,
+      "end": 31.008
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 31.008,
+      "end": 31.076
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 31.076,
+      "end": 31.145
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 31.145,
+      "end": 31.264
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 31.264,
+      "end": 31.384
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 31.384,
+      "end": 31.503
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 31.503,
+      "end": 31.622
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 31.622,
+      "end": 31.742
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 31.742,
+      "end": 31.861
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 31.861,
+      "end": 31.939
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 31.939,
+      "end": 32.017
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 32.017,
+      "end": 32.095
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 32.095,
+      "end": 32.173
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.173,
+      "end": 32.251
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 32.251,
+      "end": 32.329
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.329,
+      "end": 32.407
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 32.407,
+      "end": 32.485
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.485,
+      "end": 32.563
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 32.563,
+      "end": 32.641
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.641,
+      "end": 32.719
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.719,
+      "end": 32.805
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 32.805,
+      "end": 32.891
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 32.891,
+      "end": 32.976
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 32.976,
+      "end": 33.062
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 33.062,
+      "end": 33.148
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 33.148,
+      "end": 33.234
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 33.234,
+      "end": 33.298
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 33.298,
+      "end": 33.361
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 33.361,
+      "end": 33.425
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 33.425,
+      "end": 33.489
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 33.489,
+      "end": 33.553
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 33.553,
+      "end": 33.616
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 33.616,
+      "end": 33.68
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 33.68,
+      "end": 33.88
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 34.2,
+      "end": 34.273
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 34.273,
+      "end": 34.345
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 34.345,
+      "end": 34.418
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 34.418,
+      "end": 34.49
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 34.49,
+      "end": 34.563
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 34.563,
+      "end": 34.672
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 34.672,
+      "end": 34.781
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 34.781,
+      "end": 34.89
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 34.89,
+      "end": 34.999
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 34.999,
+      "end": 35.108
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 35.108,
+      "end": 35.168
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 35.168,
+      "end": 35.229
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 35.229,
+      "end": 35.289
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 35.289,
+      "end": 35.35
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 35.35,
+      "end": 35.41
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 35.41,
+      "end": 35.471
+    },
+    {
+      "speaker": "narrator",
+      "shape": "G",
+      "start": 35.471,
+      "end": 35.531
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 35.531,
+      "end": 35.592
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 35.592,
+      "end": 35.652
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 35.652,
+      "end": 35.725
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 35.725,
+      "end": 35.798
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 35.798,
+      "end": 35.87
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 35.87,
+      "end": 35.943
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 35.943,
+      "end": 36.016
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 36.016,
+      "end": 36.106
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 36.106,
+      "end": 36.197
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 36.197,
+      "end": 36.258
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 36.258,
+      "end": 36.318
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 36.318,
+      "end": 36.379
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 36.379,
+      "end": 36.524
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 36.524,
+      "end": 36.669
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 36.669,
+      "end": 36.76
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 36.76,
+      "end": 36.851
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 36.851,
+      "end": 36.988
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 36.988,
+      "end": 37.124
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 37.124,
+      "end": 37.261
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 37.261,
+      "end": 37.397
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 37.397,
+      "end": 37.534
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 37.534,
+      "end": 37.624
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 37.624,
+      "end": 37.715
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 37.715,
+      "end": 37.788
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 37.788,
+      "end": 37.861
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 37.861,
+      "end": 37.933
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 37.933,
+      "end": 38.006
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 38.006,
+      "end": 38.079
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.079,
+      "end": 38.139
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 38.139,
+      "end": 38.2
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.2,
+      "end": 38.26
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.26,
+      "end": 38.351
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 38.351,
+      "end": 38.442
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.442,
+      "end": 38.563
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 38.563,
+      "end": 38.684
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.684,
+      "end": 38.805
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.805,
+      "end": 38.865
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 38.865,
+      "end": 38.926
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 38.926,
+      "end": 38.986
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 38.986,
+      "end": 39.047
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 39.047,
+      "end": 39.107
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 39.107,
+      "end": 39.168
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 39.168,
+      "end": 39.229
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 39.229,
+      "end": 39.289
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 39.289,
+      "end": 39.35
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 39.35,
+      "end": 39.495
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 39.495,
+      "end": 39.64
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 39.64,
+      "end": 39.84
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 40.15,
+      "end": 40.231
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 40.231,
+      "end": 40.313
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 40.313,
+      "end": 40.395
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 40.395,
+      "end": 40.477
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 40.477,
+      "end": 40.558
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 40.558,
+      "end": 40.64
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 40.64,
+      "end": 40.803
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 40.803,
+      "end": 40.884
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 40.884,
+      "end": 40.966
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 40.966,
+      "end": 41.048
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 41.048,
+      "end": 41.13
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 41.13,
+      "end": 41.212
+    },
+    {
+      "speaker": "narrator",
+      "shape": "F",
+      "start": 41.212,
+      "end": 41.293
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 41.293,
+      "end": 41.375
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 41.375,
+      "end": 41.456
+    },
+    {
+      "speaker": "narrator",
+      "shape": "A",
+      "start": 41.456,
+      "end": 41.521
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 41.521,
+      "end": 41.587
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 41.587,
+      "end": 41.652
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 41.652,
+      "end": 41.718
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 41.718,
+      "end": 41.783
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 41.783,
+      "end": 41.848
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 41.848,
+      "end": 41.913
+    },
+    {
+      "speaker": "narrator",
+      "shape": "H",
+      "start": 41.913,
+      "end": 41.979
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 41.979,
+      "end": 42.044
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 42.044,
+      "end": 42.109
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 42.109,
+      "end": 42.19
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 42.19,
+      "end": 42.272
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 42.272,
+      "end": 42.354
+    },
+    {
+      "speaker": "narrator",
+      "shape": "C",
+      "start": 42.354,
+      "end": 42.436
+    },
+    {
+      "speaker": "narrator",
+      "shape": "E",
+      "start": 42.436,
+      "end": 42.517
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 42.517,
+      "end": 42.599
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 42.599,
+      "end": 42.686
+    },
+    {
+      "speaker": "narrator",
+      "shape": "D",
+      "start": 42.686,
+      "end": 42.773
+    },
+    {
+      "speaker": "narrator",
+      "shape": "B",
+      "start": 42.773,
+      "end": 42.86
+    },
+    {
+      "speaker": "narrator",
+      "shape": "X",
+      "start": 42.86,
+      "end": 43.06
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "start": 0.0,
+      "end": 3.83,
+      "background": {
+        "kind": "builtin",
+        "name": "plain",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "neutral",
+          "expression": "neutral",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "enter": "pop",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "money_stack",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 0.0,
+          "animation": "draw"
+        }
+      ],
+      "camera": "push_in",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "$20,000,000",
+        "style": "stamp",
+        "at": 0.17,
+        "color": null
+      },
+      "transition": "cut"
+    },
+    {
+      "id": "s2",
+      "start": 3.83,
+      "end": 6.92,
+      "background": {
+        "kind": "builtin",
+        "name": "bank",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "smug",
+          "expression": "smug",
+          "x": 0.3,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "bank",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 3.95,
+          "animation": "draw"
+        }
+      ],
+      "camera": "pan_right",
+      "cameraIntensity": 0.5,
+      "text": null,
+      "transition": "paper"
+    },
+    {
+      "id": "s3",
+      "start": 6.92,
+      "end": 12.22,
+      "background": {
+        "kind": "builtin",
+        "name": "bank",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "think",
+          "expression": "worried",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "document",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 7.04,
+          "animation": "draw"
+        },
+        {
+          "id": "p2",
+          "kind": "icon",
+          "icon": "alarm",
+          "src": null,
+          "label": null,
+          "x": 0.5,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "at": 7.504,
+          "animation": "draw"
+        }
+      ],
+      "camera": "static",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "> $10,000 = REPORTED",
+        "style": "banner",
+        "at": 7.35,
+        "color": null
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "s4",
+      "start": 12.22,
+      "end": 16.07,
+      "background": {
+        "kind": "builtin",
+        "name": "grid",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "point",
+          "expression": "excited",
+          "x": 0.3,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "coin",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 12.35,
+          "animation": "draw"
+        },
+        {
+          "id": "p2",
+          "kind": "icon",
+          "icon": "coin",
+          "src": null,
+          "label": null,
+          "x": 0.5,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "at": 13.034,
+          "animation": "draw"
+        },
+        {
+          "id": "p3",
+          "kind": "icon",
+          "icon": "coin",
+          "src": null,
+          "label": null,
+          "x": 0.75,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 6.0,
+          "at": 13.368,
+          "animation": "draw"
+        }
+      ],
+      "camera": "pull_out",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "$9,000 x 2,222",
+        "style": "marker",
+        "at": 12.617,
+        "color": null
+      },
+      "transition": "ink_wipe"
+    },
+    {
+      "id": "s5",
+      "start": 16.07,
+      "end": 22.75,
+      "background": {
+        "kind": "builtin",
+        "name": "grid",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "shock",
+          "expression": "shocked",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "laptop",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 16.2,
+          "animation": "draw"
+        },
+        {
+          "id": "p2",
+          "kind": "icon",
+          "icon": "police",
+          "src": null,
+          "label": null,
+          "x": 0.5,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "at": 16.881,
+          "animation": "draw"
+        }
+      ],
+      "camera": "shake",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "STRUCTURING",
+        "style": "stamp",
+        "at": 16.427,
+        "color": null
+      },
+      "transition": "whip"
+    },
+    {
+      "id": "s6",
+      "start": 22.75,
+      "end": 27.2,
+      "background": {
+        "kind": "builtin",
+        "name": "city",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "neutral",
+          "expression": "neutral",
+          "x": 0.3,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "washing_machine",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 22.87,
+          "animation": "draw"
+        }
+      ],
+      "camera": "push_in",
+      "cameraIntensity": 0.5,
+      "text": null,
+      "transition": "paper"
+    },
+    {
+      "id": "s7",
+      "start": 27.2,
+      "end": 34.08,
+      "background": {
+        "kind": "builtin",
+        "name": "plain",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "smug",
+          "expression": "smug",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "magnifier",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 27.35,
+          "animation": "draw"
+        },
+        {
+          "id": "p2",
+          "kind": "icon",
+          "icon": "coin",
+          "src": null,
+          "label": null,
+          "x": 0.5,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "at": 27.865,
+          "animation": "draw"
+        }
+      ],
+      "camera": "whip_zoom",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "4 MACHINES ≠ $20M",
+        "style": "marker",
+        "at": 27.693,
+        "color": null
+      },
+      "transition": "zoom"
+    },
+    {
+      "id": "s8",
+      "start": 34.08,
+      "end": 40.02,
+      "background": {
+        "kind": "builtin",
+        "name": "dots",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "think",
+          "expression": "worried",
+          "x": 0.3,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "scale",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 34.2,
+          "animation": "draw"
+        }
+      ],
+      "camera": "static",
+      "cameraIntensity": 0.5,
+      "text": null,
+      "transition": "ink_wipe"
+    },
+    {
+      "id": "s9",
+      "start": 40.02,
+      "end": 43.15,
+      "background": {
+        "kind": "builtin",
+        "name": "plain",
+        "src": null
+      },
+      "characters": [
+        {
+          "id": "vinnie",
+          "pose": "point",
+          "expression": "excited",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "enter": "none",
+          "rig": null,
+          "procedural": {
+            "species": "raccoon",
+            "body": "#A7A7A7",
+            "accent": "#E63946",
+            "accessory": "fedora"
+          }
+        }
+      ],
+      "props": [
+        {
+          "id": "p1",
+          "kind": "icon",
+          "icon": "money_stack",
+          "src": null,
+          "label": null,
+          "x": 0.25,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": -6.0,
+          "at": 40.15,
+          "animation": "draw"
+        },
+        {
+          "id": "p2",
+          "kind": "icon",
+          "icon": "question",
+          "src": null,
+          "label": null,
+          "x": 0.5,
+          "y": 0.35,
+          "scale": 1.0,
+          "rotation": 0.0,
+          "at": 40.477,
+          "animation": "draw"
+        }
+      ],
+      "camera": "push_in",
+      "cameraIntensity": 0.5,
+      "text": {
+        "text": "?",
+        "style": "stamp",
+        "at": 40.313,
+        "color": null
+      },
+      "transition": "whip"
+    }
+  ],
+  "lineBoil": true,
+  "showSafeZones": false,
+  "sfxVolume": 0.7
+}

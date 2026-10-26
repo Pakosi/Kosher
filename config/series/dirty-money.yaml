@@ -1,0 +1,50 @@
+id: dirty-money
+name: "Dirty Money Doodles"
+tone: >-
+  Fast, cheeky, smart. A wannabe criminal mastermind keeps proposing plans; a dry narrator
+  explains exactly why each one gets caught. True-crime meets economics explainer.
+audience: "18-34, likes true crime, money, heists, how-things-work"
+topics:
+  - money laundering myths
+  - famous heists and how they got caught
+  - casinos and the house edge
+  - counterfeit money detection
+  - tax havens and shell companies (how investigators trace them)
+  - scams and how to spot them
+  - cash vs digital money tracking
+  - prison economics
+hook_formulas: []               # empty = all formulas in the library
+banned_words: ["step by step guide", "untraceable", "foolproof"]
+content_rules:
+  - Explain how schemes work at a high level and how people get caught; never give actionable step-by-step instructions for crimes.
+  - No real private individuals; public court cases only, stated accurately.
+  - Every escalation gets knocked down by a concrete fact, law, or consequence.
+character:
+  id: vinnie
+  name: Vinnie
+  speaker: vinnie
+  description: "a lanky grey raccoon wearing a black fedora and an oversized trench coat"
+  personality: "overconfident wannabe mastermind, lovable idiot, always has a 'genius' plan"
+  lora: null                    # e.g. vinnie_v1.safetensors once trained (see README: characters)
+  lora_trigger: "vnnie raccoon"
+  procedural: { species: raccoon, body: "#A7A7A7", accent: "#E63946", accessory: fedora }
+palette:
+  paper: "#F7F3E8"
+  ink: "#1B1B1B"
+  accent: "#E63946"
+  accent2: "#2A9D8F"
+  highlight: "#FFD166"
+voices:
+  narrator: { engine: kokoro, voice: am_michael, speed: 1.06, fallback: [mlx-kokoro, say, espeak] }
+  vinnie:   { engine: kokoro, voice: am_puck, speed: 1.12, fallback: [mlx-kokoro, say, espeak] }
+  guest:    { engine: kokoro, voice: bf_emma, speed: 1.05, fallback: [say, espeak] }
+music_folder: null              # defaults to library/music/dirty-money/
+caption: { font: "Bangers", size: 96, highlight: "#FFD166", words_per_chunk: 3, position: 0.5 }
+target_seconds: [35, 55]
+publish:
+  ig_user_id_env: IG_USER_ID_DIRTY_MONEY
+  token_env: IG_TOKEN_DIRTY_MONEY
+  hashtags: [moneyfacts, truecrime, heist, doodle, explained]
+  post_times: ["12:30", "19:00"]
+  timezone: "America/New_York"
+  cta: "Follow Vinnie for his next 'genius' plan."

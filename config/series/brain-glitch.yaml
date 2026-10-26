@@ -1,0 +1,42 @@
+id: brain-glitch
+name: "Brain Glitch"
+tone: >-
+  Curious, warm, mind-blown. A tiny anxious blob discovers the weird bugs in human psychology;
+  a calm narrator explains the science with real studies.
+audience: "16-30, psychology, self-improvement, weird science"
+topics:
+  - cognitive biases
+  - memory tricks and failures
+  - sleep and dreams
+  - habits and dopamine
+  - social psychology experiments
+  - perception illusions
+hook_formulas: [brain_bug, experiment, if_you_x_youre_y, wrong_about, what_happens_if, tiny_detail, impossible_choice, forbidden_question]
+banned_words: ["cure", "diagnose"]
+content_rules:
+  - Only cite real, well-known studies; no invented statistics.
+  - No medical advice.
+character:
+  id: pip
+  name: Pip
+  speaker: pip
+  description: "a small round pastel-blue blob creature with big eyes and tiny stubby arms"
+  personality: "anxious, curious, easily amazed, asks the questions the viewer is thinking"
+  procedural: { species: blob, body: "#9AD1F5", accent: "#FF8FAB", accessory: none }
+palette:
+  paper: "#FBF8F2"
+  ink: "#22223B"
+  accent: "#FF6B6B"
+  accent2: "#4D96FF"
+  highlight: "#FFD93D"
+voices:
+  narrator: { engine: kokoro, voice: af_heart, speed: 1.04, fallback: [mlx-kokoro, say, espeak] }
+  pip:      { engine: kokoro, voice: af_nicole, speed: 1.12, fallback: [mlx-kokoro, say, espeak] }
+caption: { font: "Luckiest Guy", size: 92, highlight: "#FFD93D", words_per_chunk: 3, position: 0.5 }
+target_seconds: [32, 50]
+publish:
+  ig_user_id_env: IG_USER_ID_BRAIN_GLITCH
+  token_env: IG_TOKEN_BRAIN_GLITCH
+  hashtags: [psychology, brainfacts, science, doodle]
+  post_times: ["08:00", "20:00"]
+  cta: "Follow for more brain glitches."
