@@ -76,7 +76,7 @@ export const Prop: React.FC<{ prop: TLProp; palette: Palette; font: string; loca
             opacity: interpolate(local, [drawDur * 0.6, drawDur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
           }}
         >
-          {prop.label}
+          {prop.label.replace(/_/g, " ")}
         </div>
       )}
     </div>

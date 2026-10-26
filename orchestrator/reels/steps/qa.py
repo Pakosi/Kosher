@@ -138,7 +138,9 @@ def run_checks(ep: Episode, ctx: Ctx) -> QAReport:
                 wav = Path(td) / "final.wav"
                 subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(video), "-ac", "1", "-ar", "16000",
                                 str(wav)], check=True)
-                heard = transcribe_words(wav, ctx.cfg.align, prompt=script.text())
+                # no script prompt: Whisper primed with the full script can echo it back (doubling the
+                # transcript, WER ~0.85 on a perfect mix), and an independent check shouldn't be primed anyway
+                heard = transcribe_words(wav, ctx.cfg.align)
             hyp = " ".join(h["word"] for h in heard)
             w = wer(script.text(), hyp)
             matched = match_script([x.text for x in al.words], heard, dur)
@@ -166,6 +168,9 @@ def run_checks(ep: Episode, ctx: Ctx) -> QAReport:
                 for f, t in zip(frames, times):
                     r = llm.complete_json("vision", "You are a strict video QA reviewer. Output JSON only.",
                                           "This is a frame from a vertical 2D doodle-animation Instagram Reel. "
+                                          "Captions show 2-3 words of the narration at a time, so an unfinished "
+                                          "phrase is expected; only call text cut off if letters are clipped by "
+                                          "the frame edge or hidden behind something. "
                                           "Check: is any text cut off or overlapping? Is the main character fully "
                                           "visible (not cropped awkwardly)? Any visual glitch, broken image, or "
                                           "unreadable caption? Score 0-10 overall quality. "
@@ -195,7 +200,7 @@ def _run(ep: Episode, ctx: Ctx) -> None:
 
 
 register(Step(
-    name="qa", version="3", status_after="review", description="quality gate",
+    name="qa", version="5", status_after="review", description="quality gate",
     outputs=lambda ep: [ep.path("qa")],
     inputs=lambda ep, ctx: {"video": hash_file(ep.path("video")), "qa": ctx.cfg.qa.model_dump(),
                             "banned": ctx.series.banned_words},
