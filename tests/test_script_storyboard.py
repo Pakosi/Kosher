@@ -39,3 +39,16 @@ def test_storyboard_sanitise_covers_every_line_and_clamps(cfg, series):
     assert s0.props[0].icon is None and s0.props[0].prompt == "flux capacitor"
     assert s0.props[0].y <= 0.42
     assert s0.props[1].icon == "question"
+
+
+def test_storyboard_reuses_relative_and_excess_generated_backgrounds(cfg, series):
+    ctx = Ctx(cfg, series)
+    bgs = ["prompt:a white bathroom", "prompt:same room as before", "prompt:a lab", "prompt:a chart",
+           "prompt:a beach", "prompt:same room as beginning"]
+    script = Script(title="t", lines=[Line(id=f"l{i}", speaker="narrator", text="w", beat="setup")
+                                      for i in range(1, len(bgs) + 1)])
+    raw = Storyboard.model_validate(coerce({"scenes": [
+        {"id": str(i), "line_ids": [f"l{i}"], "background": b} for i, b in enumerate(bgs, 1)]}))
+    got = [s.background for s in sanitise(raw, script, ctx).scenes]
+    assert got == ["prompt:a white bathroom", "prompt:a white bathroom", "prompt:a lab", "prompt:a chart",
+                   "prompt:a chart", "prompt:a white bathroom"]

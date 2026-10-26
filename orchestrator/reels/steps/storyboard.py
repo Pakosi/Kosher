@@ -4,10 +4,13 @@ visual vocabulary so the renderer never meets an unknown name."""
 
 from __future__ import annotations
 
+import re
+
 from ..cache import hash_file
 from ..episode import Episode
 from ..llm import get_llm
 from ..spec import Script, Storyboard
+from ..text import shorten
 from ..vocab import (BACKGROUNDS, CAMERAS, EXPRESSIONS, ICONS, POSES, PROP_ANIMS, SFX,
                      TEXT_STYLES, TRANSITIONS)
 from .base import Ctx, Step, register
@@ -43,6 +46,10 @@ SB_SCHEMA = {
                      "on_screen_text", "sfx", "transition_in"]}}},
     "required": ["scenes"],
 }
+
+
+RELATIVE_BG = re.compile(r"\b(same|as before|previous|again|earlier|beginning)\b", re.I)
+MAX_GENERATED_BG = 3   # generated backgrounds are meant to be rare; each costs ~35 s of SDXL
 
 
 def _clamp(v: float, lo: float, hi: float) -> float:
@@ -119,10 +126,19 @@ def sanitise(sb: Storyboard, script: Script, ctx: Ctx) -> Storyboard:
         s.line_ids.sort(key=line_ids.index)
     scenes.sort(key=lambda s: line_ids.index(s.line_ids[0]))
 
+    generated: list[str] = []
     for i, sc in enumerate(scenes):
         sc.id = f"s{i + 1}"
         if not (sc.background in BACKGROUNDS or sc.background.startswith("prompt:")):
             sc.background = "plain"
+        if sc.background.startswith("prompt:") and i:
+            # "same room as before" would be generated as a brand-new random scene: reuse instead
+            if RELATIVE_BG.search(sc.background):
+                sc.background = scenes[0 if "beginning" in sc.background.lower() else i - 1].background
+            elif sc.background not in generated and len(generated) >= MAX_GENERATED_BG:
+                sc.background = scenes[i - 1].background
+        if sc.background.startswith("prompt:") and sc.background not in generated:
+            generated.append(sc.background)
         sc.camera = sc.camera if sc.camera in CAMERAS else "static"
         sc.camera_intensity = _clamp(sc.camera_intensity, 0, 1)
         sc.transition_in = "cut" if i == 0 else (sc.transition_in if sc.transition_in in TRANSITIONS else "cut")
@@ -150,7 +166,7 @@ def sanitise(sb: Storyboard, script: Script, ctx: Ctx) -> Storyboard:
             props.append(p)
         sc.props = props
         if sc.on_screen_text:
-            sc.on_screen_text.text = sc.on_screen_text.text[:28]
+            sc.on_screen_text.text = shorten(sc.on_screen_text.text, 28)
             if sc.on_screen_text.style not in TEXT_STYLES:
                 sc.on_screen_text.style = "marker"
         sc.sfx = [x for x in sc.sfx if x.name in SFX][:3]
@@ -195,7 +211,7 @@ Return JSON {{"scenes": [...]}}."""
 
 
 register(Step(
-    name="storyboard", version="2", status_after="boarded", description="scenes, props, camera, sfx",
+    name="storyboard", version="4", status_after="boarded", description="scenes, props, camera, sfx",
     outputs=lambda ep: [ep.path("storyboard")],
     inputs=lambda ep, ctx: {"script": hash_file(ep.path("script")),
                             "chars": [c.model_dump() for c in ctx.series.all_characters()],

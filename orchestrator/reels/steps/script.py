@@ -81,7 +81,8 @@ def validate(script: Script, ctx: Ctx) -> list[str]:
     lo, hi = target_words(ctx)
     n = script.word_count()
     if n < lo:
-        problems.append(f"too short: {n} words, need {lo}-{hi}")
+        problems.append(f"too short: {n} words, need {lo}-{hi}; add about {(lo + hi) // 2 - n} words, e.g. one more "
+                        "escalation exchange with a concrete fact or consequence")
     if n > hi:
         problems.append(f"too long: {n} words, need {lo}-{hi}")
     if hit := find_banned(script.text(), ctx.series.banned_words):
@@ -111,7 +112,7 @@ def draft(idea: Idea, ctx: Ctx) -> Script:
     llm = get_llm("draft", ctx.cfg)
     rules = "\n".join(f"- {r}" for r in ctx.series.content_rules)
     prompt = f"""Write the script for a {ctx.series.target_seconds[0]}-{ctx.series.target_seconds[1]} second Instagram Reel
-({lo}-{hi} spoken words total) for the series "{ctx.series.name}".
+({lo}-{hi} spoken words total, aim for about {(lo + hi) // 2}) for the series "{ctx.series.name}".
 Tone: {ctx.series.tone}
 CHARACTER_ID: {ctx.series.character.id}
 
@@ -200,7 +201,7 @@ def _run(ep: Episode, ctx: Ctx) -> None:
 
 
 register(Step(
-    name="script", version="3", status_after="scripted", description="draft + polish script",
+    name="script", version="4", status_after="scripted", description="draft + polish script",
     outputs=lambda ep: [ep.path("script")],
     inputs=lambda ep, ctx: {"idea": hash_file(ep.path("idea")),
                             "series": ctx.series.model_dump(include={"tone", "voices", "content_rules",

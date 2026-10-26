@@ -45,6 +45,19 @@ def speakable(text: str) -> str:
     return text.replace("&", " and ")
 
 
+def shorten(text: str, limit: int) -> str:
+    """Trim to at most `limit` chars on a word boundary (never leaves half a word on screen)."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    out = ""
+    for w in text.split(" "):
+        if len(out) + len(w) + (1 if out else 0) > limit:
+            break
+        out = f"{out} {w}" if out else w
+    return out.rstrip(",;:-–—") or text[:limit]
+
+
 def words(text: str) -> list[str]:
     return re.findall(r"[a-z0-9']+", text.lower())
 

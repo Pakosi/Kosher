@@ -68,7 +68,7 @@ def _run(ep: Episode, ctx: Ctx) -> None:
 
 
 register(Step(
-    name="render", version="2", status_after="rendered", description="Remotion render + loudnorm",
+    name="render", version="3", status_after="rendered", description="Remotion render + loudnorm",
     outputs=lambda ep: [ep.path("video")],
     inputs=lambda ep, ctx: {"tl": hash_file(ep.path("timeline")),
                             "pub": sorted(str(p.relative_to(ep.path("public"))) + ":" + str(p.stat().st_size)

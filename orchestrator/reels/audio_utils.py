@@ -85,9 +85,12 @@ def loudnorm_video(src: Path, dest: Path, lufs: float, tp: float) -> dict[str, f
     m = loudness(src)
     flt = (f"loudnorm=I={lufs}:TP={tp}:LRA=11:measured_I={m['lufs']}:measured_TP={m['true_peak']}:"
            f"measured_LRA={m['lra']}:measured_thresh={m['thresh']}:offset={m['offset']}:linear=true,"
-           # brickwall a bit under the target so AAC encoding overs stay below the true-peak ceiling
-           f"alimiter=limit={10 ** ((tp - 1.5) / 20):.4f}:level=false:attack=1:release=50")
-    ffmpeg("-i", str(src), "-c:v", "copy", "-af", flt, "-ar", "48000", "-c:a", "aac", "-b:a", "192k",
+           # brickwall a bit under the target so AAC encoding overs stay below the true-peak ceiling;
+           # 4x oversampled so the limiter catches inter-sample (true) peaks, not just sample peaks
+           f"aresample=192000,alimiter=limit={10 ** ((tp - 1.5) / 20):.4f}:level=false:attack=1:release=50,"
+           "aresample=48000")
+    # ffmpeg's native AAC at 192k overshot the limiter by ~2 dB true peak; 320k stays within ~0.3 dB
+    ffmpeg("-i", str(src), "-c:v", "copy", "-af", flt, "-ar", "48000", "-c:a", "aac", "-b:a", "320k",
            "-movflags", "+faststart", str(dest))
     return m
 

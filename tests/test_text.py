@@ -24,3 +24,11 @@ def test_banned_and_syllables():
     assert find_banned("totally fine", ["foolproof"]) == []
     assert syllables("laundromat") == 3
     assert syllables("cash") == 1
+
+
+def test_shorten_on_word_boundary():
+    from reels.text import shorten
+    assert shorten("You've been washing hands wrong forever", 28) == "You've been washing hands"
+    assert shorten("Short one", 28) == "Short one"
+    assert shorten("Wait, but I wash them, all the time", 12) == "Wait, but I"
+    assert shorten("Supercalifragilisticexpialidocious", 10) == "Supercalif"
