@@ -24,3 +24,4 @@ characters/*/design/
 !library/README.md
 library/voices/*
 !library/voices/.gitkeep
+setup/start-comfy.sh

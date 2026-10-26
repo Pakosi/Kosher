@@ -17,9 +17,11 @@ say() { printf "\n\033[1;36m==> %s\033[0m\n" "$*"; }
 say "Homebrew packages"
 command -v brew >/dev/null || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 eval "$(/opt/homebrew/bin/brew shellenv 2>/dev/null || true)"
-brew install ffmpeg node@22 python@3.12 potrace git git-lfs uv ollama espeak-ng
+brew install ffmpeg python@3.12 potrace git git-lfs uv espeak-ng
+# keep an existing Node (>=20) and Ollama (e.g. Ollama.app) instead of replacing them
+command -v node >/dev/null || { brew install node@22; brew link --overwrite node@22 >/dev/null 2>&1 || true; }
+command -v ollama >/dev/null || brew install ollama
 brew install rhubarb-lip-sync 2>/dev/null || echo "rhubarb not in brew on this system; lipsync falls back to rules"
-brew link --overwrite node@22 >/dev/null 2>&1 || true
 
 say "Python environment (orchestrator)"
 cd "$ROOT/orchestrator"
@@ -36,7 +38,7 @@ npx remotion browser ensure || true
 
 if [[ -z "${SKIP_MODELS:-}" ]]; then
   say "Ollama models (one at a time is loaded during runs)"
-  brew services start ollama || (ollama serve >/dev/null 2>&1 &)
+  curl -sf http://127.0.0.1:11434/api/version >/dev/null || brew services start ollama || (ollama serve >/dev/null 2>&1 &)
   sleep 3
   ollama pull qwen3:14b       # drafting (~9GB, Q4)
   ollama pull gemma3:12b      # judging (~8GB)
@@ -58,6 +60,8 @@ if [[ -z "${SKIP_COMFY:-}" ]]; then
   say "ComfyUI at $COMFY_DIR"
   if [[ ! -d "$COMFY_DIR" ]]; then git clone https://github.com/comfyanonymous/ComfyUI "$COMFY_DIR"; fi
   cd "$COMFY_DIR"
+  # an interrupted clone leaves an empty repo: fetch the default branch into it
+  [[ -f main.py ]] || { git fetch origin && git checkout -B master origin/master; }
   git pull --ff-only || true
   [[ -d venv ]] || python3.12 -m venv venv
   ./venv/bin/pip install -q --upgrade pip
