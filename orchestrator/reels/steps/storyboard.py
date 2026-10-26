@@ -52,6 +52,19 @@ RELATIVE_BG = re.compile(r"\b(same|as before|previous|again|earlier|beginning)\b
 MAX_GENERATED_BG = 3   # generated backgrounds are meant to be rare; each costs ~35 s of SDXL
 
 
+def _spread(props: list, min_dx: float = 0.24) -> None:
+    """Props on the same row closer than min_dx overlap (icons and labels): space them evenly."""
+    if len(props) < 2:
+        return
+    xs = sorted(p.x for p in props)
+    if all(b - a >= min_dx for a, b in zip(xs, xs[1:])):
+        return
+    n = len(props)
+    lo, hi = (0.5 - min_dx * (n - 1) / 2, 0.5 + min_dx * (n - 1) / 2) if min_dx * (n - 1) <= 0.68 else (0.16, 0.84)
+    for i, p in enumerate(sorted(props, key=lambda p: p.x)):
+        p.x = round(lo + (hi - lo) * i / (n - 1), 3)
+
+
 def _clamp(v: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, float(v)))
 
@@ -163,11 +176,19 @@ def sanitise(sb: Storyboard, script: Script, ctx: Ctx) -> Storyboard:
             p.scale = _clamp(p.scale, 0.5, 1.8)
             p.rotation = _clamp(p.rotation, -25, 25)
             p.animation = p.animation if p.animation in PROP_ANIMS else "draw"
+            if p.label:
+                p.label = p.label.rstrip("0123456789_ ") or None
             props.append(p)
+        _spread(props)
         sc.props = props
         if sc.on_screen_text:
-            sc.on_screen_text.text = shorten(sc.on_screen_text.text, 28)
-            if sc.on_screen_text.style not in TEXT_STYLES:
+            full = " ".join(sc.on_screen_text.text.split())
+            short = shorten(full, 28)
+            # a banner showing half a sentence reads as a bug; captions already carry the full line
+            sc.on_screen_text.text = short
+            if len(short) < 0.75 * len(full):
+                sc.on_screen_text = None
+            elif sc.on_screen_text.style not in TEXT_STYLES:
                 sc.on_screen_text.style = "marker"
         sc.sfx = [x for x in sc.sfx if x.name in SFX][:3]
     return Storyboard(scenes=scenes)
@@ -211,7 +232,7 @@ Return JSON {{"scenes": [...]}}."""
 
 
 register(Step(
-    name="storyboard", version="4", status_after="boarded", description="scenes, props, camera, sfx",
+    name="storyboard", version="5", status_after="boarded", description="scenes, props, camera, sfx",
     outputs=lambda ep: [ep.path("storyboard")],
     inputs=lambda ep, ctx: {"script": hash_file(ep.path("script")),
                             "chars": [c.model_dump() for c in ctx.series.all_characters()],

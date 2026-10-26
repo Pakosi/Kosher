@@ -52,3 +52,23 @@ def test_storyboard_reuses_relative_and_excess_generated_backgrounds(cfg, series
     got = [s.background for s in sanitise(raw, script, ctx).scenes]
     assert got == ["prompt:a white bathroom", "prompt:a white bathroom", "prompt:a lab", "prompt:a chart",
                    "prompt:a chart", "prompt:a white bathroom"]
+
+
+def test_storyboard_spreads_close_props_and_drops_fragment_text(cfg, series):
+    ctx = Ctx(cfg, series)
+    script = Script(title="t", lines=[Line(id="l1", speaker="narrator", text="w", beat="hook"),
+                                      Line(id="l2", speaker="narrator", text="w", beat="setup")])
+    raw = Storyboard.model_validate(coerce({"scenes": [
+        {"id": "a", "line_ids": ["l1"], "on_screen_text": {"text": "A study shows people take an average of 6 seconds",
+                                                           "style": "marker", "appear_word": 0, "color": "red"},
+         "props": [{"id": "x", "icon": "document", "label": "study", "x": 0.5},
+                   {"id": "y", "icon": "clock", "label": "clock3", "x": 0.6}]},
+        {"id": "b", "line_ids": ["l2"], "on_screen_text": {"text": "20 seconds, not 4", "style": "marker",
+                                                           "appear_word": 0, "color": "red"}},
+    ]}))
+    a, b = sanitise(raw, script, ctx).scenes
+    xs = sorted(p.x for p in a.props)
+    assert xs[1] - xs[0] >= 0.24 - 1e-9
+    assert [p.label for p in a.props] == ["study", "clock"]
+    assert a.on_screen_text is None
+    assert b.on_screen_text.text == "20 seconds, not 4"
