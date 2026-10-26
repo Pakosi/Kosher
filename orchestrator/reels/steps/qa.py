@@ -49,6 +49,21 @@ def _frames(video: Path, times: list[float], out: Path) -> list[Path]:
     return paths
 
 
+def settled_time(t: float, tl: Timeline, settle: float = 0.8) -> float:
+    """Move a sample time off entrance animations (scene cut, prop pop/slide, text reveal) so the
+    vision check judges the settled layout, not a half-drawn banner or a prop mid-slide."""
+    for sc in tl.scenes:
+        if sc.start <= t < sc.end:
+            events = [sc.start] + [p.at for p in sc.props] + ([sc.text.at] if sc.text else [])
+            ok = lambda x: all(not (e <= x < e + settle) for e in events)  # noqa: E731
+            if ok(t):
+                return t
+            good = [e + settle for e in events if e + settle < sc.end - 0.05 and ok(e + settle)]
+            later = [c for c in good if c >= t]
+            return min(later) if later else max(good, default=t)
+    return t
+
+
 def run_checks(ep: Episode, ctx: Ctx) -> QAReport:
     q = ctx.cfg.qa
     video = ep.path("video")
@@ -136,7 +151,7 @@ def run_checks(ep: Episode, ctx: Ctx) -> QAReport:
     # frames: deterministic + vision model
     with tempfile.TemporaryDirectory() as td:
         n = q.vision_frames
-        times = [min(dur - 0.1, (i + 0.5) * dur / n) for i in range(n)]
+        times = [settled_time(min(dur - 0.1, (i + 0.5) * dur / n), tl) for i in range(n)]
         frames = _frames(video, times, Path(td))
         flat = []
         for f in frames:
@@ -180,7 +195,7 @@ def _run(ep: Episode, ctx: Ctx) -> None:
 
 
 register(Step(
-    name="qa", version="2", status_after="review", description="quality gate",
+    name="qa", version="3", status_after="review", description="quality gate",
     outputs=lambda ep: [ep.path("qa")],
     inputs=lambda ep, ctx: {"video": hash_file(ep.path("video")), "qa": ctx.cfg.qa.model_dump(),
                             "banned": ctx.series.banned_words},
